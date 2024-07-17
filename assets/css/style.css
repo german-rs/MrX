@@ -1,0 +1,22 @@
+
+
+@font-face {
+    font-family: 'American Typewriter';
+    src: url('../fonts/american-typewriter-1.ttf') format('truetype');
+  }
+
+  body {
+    background-color: #FFFF99;
+    font-family: 'American Typewriter', serif;
+  }
+
+  .header__titulo{
+    color: blue;
+    font-size: 4em;
+    text-align: center;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+  }
